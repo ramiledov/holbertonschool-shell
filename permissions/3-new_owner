@@ -1,2 +1,2 @@
 #!/bin/bash
-chown betty hello
+chown betty hello && ls -l hello | cut -d' ' -f3
